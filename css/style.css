@@ -1,0 +1,20 @@
+body{
+    background-color:hsl(217, 54%, 11%) ;
+    min-height: 100vh;
+    display: flex;
+}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+.card{
+    background-color: hsl(216, 50%, 16%);
+    width: 250px;
+    height: 450px;
+    margin: auto;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+}
+.card-image{
+    padding: 10px;
+     border-radius: 10px;
+}
