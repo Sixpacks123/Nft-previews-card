@@ -1,7 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
 body{
     background-color:hsl(217, 54%, 11%) ;
     min-height: 100vh;
     display: flex;
+}
+.font-police{
+    font-family: 'Outfit', sans-serif;
 }
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
@@ -13,8 +18,49 @@ body{
     border-radius: 15px;
     display: flex;
     flex-direction: column;
+    padding: 20px;
 }
 .card-image{
-    padding: 10px;
-     border-radius: 10px;
+    border-radius: 15px;
+}
+.card-title{
+    font-size: 16px;
+    color: white;
+    font-weight: 600;
+}
+p{
+    font-size: 15px;
+    color: hsl(215, 51%, 70%);
+    font-weight: 300;
+}
+.author{
+    color: white;
+}
+.card-middle{
+    display: flex;
+    justify-content:space-between
+}
+hr{
+    color: hsl(215, 32%, 27%);
+    width: 100%;
+}
+.card-test{
+    display: flex;
+    align-items: center;
+    
+}
+svg{
+    padding-right: 4px;
+}
+
+.time{
+    color:hsl(215, 51%, 70%);
+    font-weight: 300;
+}
+.price{
+    color:hsl(178, 100%, 50%);
+}
+.card-author{
+    display: flex;
+    flex-direction: row;
 }
